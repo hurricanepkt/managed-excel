@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x14ac" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">
+  <dimension ref="A1:B7"/>
+  <sheetViews>
+    <sheetView tabSelected="1" workbookViewId="0">
+      <selection activeCell="B8" sqref="B8"/>
+    </sheetView>
+  </sheetViews>
+  <sheetFormatPr defaultRowHeight="15" x14ac:dyDescent="0.25"/>
+  <sheetData>
+    <row r="1" spans="1:2" x14ac:dyDescent="0.25">
+      <c r="A1">
+        <v>123</v>
+      </c>
+      <c r="B1">
+        <f>A1*2</f>
+        <v>246</v>
+      </c>
+    </row>
+    <row r="2" spans="1:2" x14ac:dyDescent="0.25">
+      <c r="A2">
+        <v>456</v>
+      </c>
+    </row>
+    <row r="3" spans="1:2" x14ac:dyDescent="0.25">
+      <c r="A3" t="s">
+        <v>0</v>
+      </c>
+    </row>
+    <row r="4" spans="1:2" x14ac:dyDescent="0.25">
+      <c r="A4" t="s">
+        <v>1</v>
+      </c>
+    </row>
+    <row r="5" spans="1:2" x14ac:dyDescent="0.25">
+      <c r="A5">
+        <f>A1+A2</f>
+        <v>579</v>
+      </c>
+    </row>
+    <row r="6" spans="1:2" x14ac:dyDescent="0.25">
+      <c r="A6" t="str">
+        <f>A3 &amp; " " &amp; A4</f>
+        <v>ABC def</v>
+      </c>
+    </row>
+    <row r="7" spans="1:2" x14ac:dyDescent="0.25">
+      <c r="A7">
+        <f>MIN(A5,A2,A1)</f>
+        <v>123</v>
+      </c>
+      <c r="B7">
+        <f>MAX(A5,B1)</f>
+        <v>579</v>
+      </c>
+    </row>
+  </sheetData>
+  <pageMargins left="0.7" right="0.7" top="0.75" bottom="0.75" header="0.3" footer="0.3"/>
+</worksheet>
